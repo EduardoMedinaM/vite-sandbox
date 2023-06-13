@@ -1,8 +1,10 @@
-import { Header } from './Header';
+import Dictionary from '.';
+import { ReduxProvider } from '../../utils/testWrappers';
 
 export default {
-	title: 'Example/Header',
-	component: Header,
+	title: 'Demos/Dictionary',
+	component: Dictionary,
+	decorators: [(story) => <ReduxProvider>{story()}</ReduxProvider>],
 	// This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
 	tags: ['autodocs'],
 	parameters: {
@@ -11,12 +13,4 @@ export default {
 	},
 };
 
-export const LoggedIn = {
-	args: {
-		user: {
-			name: 'Jane Doe',
-		},
-	},
-};
-
-export const LoggedOut = {};
+export const Default = {};

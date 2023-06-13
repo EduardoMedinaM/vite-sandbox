@@ -1,3 +1,3 @@
 export const DICTIONARY_LANGUAGES = {
-  ENGLISH: 'en',
+	ENGLISH: 'en',
 };

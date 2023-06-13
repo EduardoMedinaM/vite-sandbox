@@ -11,11 +11,11 @@ expect.extend(matchers);
 beforeAll(() => server.listen());
 
 afterEach(() => {
-  // runs a cleanup after each test case (e.g. clearing jsdom)
-  cleanup();
-  // reset any request handlers that we may add during the tests,
-  // so they don't affect other tests
-  server.resetHandlers();
+	// runs a cleanup after each test case (e.g. clearing jsdom)
+	cleanup();
+	// reset any request handlers that we may add during the tests,
+	// so they don't affect other tests
+	server.resetHandlers();
 });
 
 // clean up after the tests are finished

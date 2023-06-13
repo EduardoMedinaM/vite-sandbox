@@ -6,10 +6,10 @@ import counterReducer from './slices/counterSlice';
 //const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-  //middleware: [sagaMiddleware],
+	reducer: {
+		counter: counterReducer,
+	},
+	//middleware: [sagaMiddleware],
 });
 
 //sagaMiddleware.run(rootSaga);
