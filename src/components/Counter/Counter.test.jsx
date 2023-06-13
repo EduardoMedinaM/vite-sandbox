@@ -6,7 +6,7 @@ import { describe, expect, it } from 'vitest';
 import Counter from '.';
 import { ReduxProvider } from '../../utils/testWrappers';
 
-const getComponent = (props={}) => <Counter {...props} />;
+const getComponent = (props = {}) => <Counter {...props} />;
 
 describe('Counter', () => {
 	it('Should render correctly', () => {
