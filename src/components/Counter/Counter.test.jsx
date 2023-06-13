@@ -1,5 +1,4 @@
 // To make the tests work make sure to add .jsx and not js
-
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it } from 'vitest';

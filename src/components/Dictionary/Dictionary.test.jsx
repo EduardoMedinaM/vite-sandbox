@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import Dictionary from './';
 
 describe('Dictionary', () => {
-	const getComponent = (props) => <Dictionary {...props} />;
+	const getComponent = (props = {}) => <Dictionary {...props} />;
 
 	it('should render', () => {
 		render(getComponent());
