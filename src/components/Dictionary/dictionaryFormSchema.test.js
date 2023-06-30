@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import * as schema from './dictionaryFormSchema';
 
 describe('dictionaryFormSchema', () => {

@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import { mockDictionaryOkResponse } from '../../mocks/dictionary/dictionaryResponses';
 import { selectDefinition, selectDictionary } from './dictionarySelector';
 
