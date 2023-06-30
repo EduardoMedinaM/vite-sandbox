@@ -3,6 +3,7 @@ import useDictionary from './useDictionary';
 
 const Dictionary = () => {
 	const { wordDefinition, formik, isSubmitDisabled } = useDictionary();
+
 	return (
 		<>
 			<form onSubmit={formik.handleSubmit}>
