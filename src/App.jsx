@@ -1,6 +1,6 @@
-import Counter from './components/Counter';
+import Dictionary from './components/Dictionary/Dictionary';
 function App() {
-	return <Counter />;
+	return <Dictionary />;
 }
 
 export default App;
