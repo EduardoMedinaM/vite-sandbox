@@ -57,6 +57,7 @@
 		"msw": "^1.2.1",
 		"prettier": "^2.8.8",
 		"prop-types": "^15.8.1",
+		"react-test-renderer": "^18.2.0",
 		"storybook": "^7.0.20",
 		"vite": "^4.3.9",
 		"vitest": "^0.32.0"
